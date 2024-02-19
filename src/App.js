@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 
-import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 // import SignUp from './components/SignUp';
@@ -25,50 +25,56 @@ import SocialIcon from './components/SocialIcon';
 const App = () => {
   return (
     <>
-      <Router>
+      <BrowserRouter>
 
         <Routes>
           {/* <Route exact path='/AllEvent'> */}
-            {/* <Navbar /> */}
-            {/* <Allevents /> */}
+          {/* <Navbar /> */}
+          {/* <Allevents /> */}
           {/* </Route> */}
-          <Route exact path="/">
-            <Navbar />
-            <Home />
-            <Timer />
-            <SocialIcon />
-            <Aboutcard />
-            {/* <Previously /> */}
-            {/* <About /> */}
-            {/* <Events /> */}
-          </Route>
-          <Route exact path="/About">
-            <Navbar />
-            <About />
-          </Route>
-          <Route exact path="/signup">
-            <Navbar />
-            {/* <SignUp /> */}
-          </Route>
-          <Route exact path='/contact'>
-            <Navbar />
-            {/* <Contactus /> */}
-          </Route>
-          <Route exact path="/profile">
-            <Navbar />
-            {/* <Profile /> */}
-          </Route>
-          <Route exact path="/EventDetail/:ide">
-            <Navbar />
-            {/* <EventDetail/> */}
-          </Route>
-          {/* <Route exact path="/TeamReg/:ide"> */}
-          {/* <TeamReg /> */}
-          {/* <Test/> */}
-          {/* </Route> */}
-        </Routes>
+          <Route exact path="/" element={
+            <>
+              <Navbar />
+              <Home />
+              <Timer />
+              <SocialIcon />
+              <Aboutcard />
+            </>
+          } />
 
-      </Router>
+          {/* <Previously /> */}
+          {/* <About /> */}
+          {/* <Events /> */}
+          {/* </Route> */}
+          <Route exact path="/About" element={
+            <>
+              <Navbar />
+              <About />
+            </>
+          } />
+          <Route exact path="/signup" element={<Navbar />} />
+
+          {/* <SignUp /> */}
+          {/* </Route> */}
+          <Route exact path='/contact' element={<Navbar />} />
+          <Route exact path="/profile" element={<Navbar />} />
+          {/* <Navbar /> */}
+          {/* <Profile /> */}
+          {/* </Route> */}
+          <Route exact path="/EventDetail/:ide" element={
+            <>
+              <Navbar />
+              {/* <EventDetail/> */}
+              {/* <Route> */}
+              {/* <Route exact path="/TeamReg/:ide"> */}
+              {/* <TeamReg /> */}
+              {/* <Test/> */}
+              {/* </Route> */}
+            </>
+          } />
+
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
