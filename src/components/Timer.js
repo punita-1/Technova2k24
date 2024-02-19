@@ -228,7 +228,7 @@ const Timer = () => {
     <>
     <section id="back">
     {/* <h2 style={{color:'#fff', textAlign: 'center'}}>BEGINS IN --</h2> */}
-    <div class="flipclock" id="flipclock-1" style={{color: '#000'}}></div>
+    <div className="flipclock" id="flipclock-1" style={{color: '#000'}}></div>
     </section>
     </>
   )
