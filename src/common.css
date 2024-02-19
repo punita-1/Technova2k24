@@ -1,0 +1,18 @@
+:root{
+    --d: 1300ms;
+    --e: cubic-bezier(0.19, 1, 0.2, 1);
+    --font-sans: "Rubik", sans-serif;
+    --font-serif: "Cardo", serif;
+    --font-size-15xl: 24px;
+    --font-size-base:16px;
+}
+/* Colour */
+:root{
+    --color-lightskyblue:#81afdd;
+}
+.display-flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}

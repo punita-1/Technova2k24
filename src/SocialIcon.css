@@ -1,0 +1,32 @@
+.social-icon-wrapper{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+.social-icon-heading{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    line-height: 0.8;
+    background: linear-gradient(89.97deg, #ae67fa, #f49867 97.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-icon-heading span{
+    font-weight: 400;
+    font-size: 18px;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-icon-image-wrapper{
+    gap: 20px;
+    background-color: white;
+    margin-top: 15px;
+}
+.social-icon-image-wrapper img{
+    width: 100px;
+    height: 100px;
+}
