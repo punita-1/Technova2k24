@@ -9,8 +9,8 @@ const Aboutinside = () => {
 
         <div className='about_what'>
           <h1>What is Technova?</h1>
-          <div class="container">
-            <div class="rectangle"></div>
+          <div className="container">
+            <div className="rectangle"></div>
           </div>
         </div>
         <div className='about_content'>
@@ -36,8 +36,8 @@ const Aboutinside = () => {
 
         <div className='why'>
           <h1>Why it is so Important?</h1>
-          <div class="container">
-            <div class="rectangle"></div>
+          <div className="container">
+            <div className="rectangle"></div>
           </div>
         </div>
         <div className='about_why'>
