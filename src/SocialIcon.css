@@ -28,5 +28,21 @@
 }
 .social-icon-image-wrapper img{
     width: 100px;
-    height: 100px;
+    height: 100px !important;
 }
+
+/* Define the common styles for all images */
+.social_icon_size_effect {
+    border-radius: 10px;
+    width: 50px; /* Set the initial width */
+    height: auto; /* Maintain the aspect ratio */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transitions for smooth animation */
+  }
+  
+  /* Define hover effect */
+.social_icon_size_effect:hover {
+    /* background-color: #ae67fa; */
+    transform: scale(1.1); /* Increase size on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+  }
+  

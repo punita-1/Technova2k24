@@ -1,0 +1,238 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.about-child, .body-of-this-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1148px;
+  height: 628px;}
+
+.about-child {
+  border-radius: 20px;
+  /* background-color: #042c54; */
+   background-color: black;
+}
+
+.body-of-this-section {
+  object-fit: cover;
+  opacity: 0;
+}
+
+.about-technova1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.04em;
+  line-height: 75px;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+
+.about-technova-child {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(103.22deg, #ae67fa, #f49867 97.4%), #fff;
+  width: 38.3px;
+  height: 3px;
+}
+
+.explore-the-events,
+.welcome-to-technova {
+  position: absolute;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.welcome-to-technova {
+  top: 17px;
+  left: 307.6px;
+  /* color:#dededeab; */
+  width: 737.2px;
+  height: 179px;
+  opacity: 0;
+}
+
+.welcome-to-technova.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-right;
+}
+
+.explore-the-events {
+  top: 250px;
+  color: #ae67fa;
+  left: 884.8px;
+  text-decoration: underline;
+  font-weight: 500;
+  /* color: var(--color-salmon); */
+  width: 145.2px;
+}
+
+.about-technova {
+  position: absolute;
+  top: 57px;
+  left: 61.5px;
+  width: 1063px;
+  height: 245px;
+}
+
+.opportunity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.04em;
+  line-height: 75px;
+  display: inline-block;
+  width: 137.2px;
+}
+.about-white-heading{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.opportunity-for-personal {
+  /* text-align: justify; */
+  margin: 0px 40px 40px 0px;
+  /* word-spacing: -0.5px; */
+}
+
+.span {
+  font-weight: 500;
+  font-family: var(--font-manrope);
+}
+.description-container{
+  position: absolute;
+  top: 80px;
+  left: 0;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  /* color: #dededeab; */
+  display: inline-block;
+  width: 336.9px;
+}
+
+.opportunity-text {
+  position: inherit;
+  /* color: white !important; */
+  top: 350px;
+  left: 5px;
+  width: 336.9px;
+  height: 193px;
+}
+
+.recognition-text {
+  position: absolute;
+  top: 350px;
+  left: 378.9px;
+  width: 336.9px;
+  height: 193px;
+}
+
+.education {
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: -0.04em;
+  line-height: 75px;
+  /* font-weight: 800; */
+  display: inline-block;
+  width: 114px;
+}
+
+.education-text {
+  position: absolute;
+  top: 350px;
+  left: 722.1px;
+  width: 337.9px;
+  height: 193px;
+}
+
+.why-join-us1 {
+  position: absolute;
+  top: 241px;
+  left: 0;
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  background: linear-gradient(103.22deg, #ae67fa, #f49867 97.4%), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 476px;
+  opacity: 0;
+}
+
+.why-join-us1.animate {
+  animation: 2s ease 0s 1 normal forwards slide-in-left;
+}
+
+.about1,
+.why-join-us {
+  position: absolute;
+  top: 350px;
+  left: 52.4px;
+  width: 1060px;
+  height: 375px;
+  font-size: var(--font-size-5xl);
+}
+
+.about1 {
+  position: sticky;
+  border-radius: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1159px;
+  height: 642px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: white;
+  font-family: var(--font-manrope);
+}
+.about-card-wrapper{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.about-technova1 {
+  position: relative; /* Ensure the container is positioned relative to its normal position */
+  overflow: hidden; /* Hide any content that overflows the container */
+}
+
+.about-technova-child {
+  position: absolute; /* Position the child element relative to its closest positioned ancestor */
+  right: -100%; /* Initial position outside the container */
+  animation: slideInRight 1s forwards; /* Apply the slide-in animation */
+}
+
+@keyframes slideInRight {
+  from {
+    right: -100%; /* Start position outside the container */
+  }
+  to {
+    right: 0; /* End position inside the container */
+  }
+}

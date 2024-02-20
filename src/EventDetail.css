@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+	
+} */
+
+.body45{
+    
+	color: white;
+    background-color: #ece9e9;
+  	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 50px;
+    top:0;
+    
+}
+/* .container {
+	margin: 0 auto;
+	max-width: 1200px;
+    flex-direction: row;
+} */
+
+/*  */
+
+.innercontainer{
+  
+    
+    background-color: #ffffff;
+    top: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+
+}
+
+.about45{
+
+    display: flex;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    box-shadow: 1px 1px 10px 5px #dddddd;
+
+ }
+
+
+.banner45 {
+    
+    position: relative;
+    margin: 3% 1%;
+    width: 100vw;
+    height: 50vh;
+    /* background-image: url(./images/360_F_387954147_QMQRhvyvtTdBB2bL1ypyOcy23ZYPyXFE.jpg); */
+    background-position:left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* box-shadow: 10px 10px 8px #888888; */
+    /* border: 5px solid blueviolet */
+  }
+ 
+  .description45{
+      margin: 5%;
+  }
+  .description45  #desgh{
+    font-weight: bold;
+   
+  }
+
+.description45 > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: smaller;
+    color: #000000;
+    word-wrap: break-word;
+}
+
+.regis{
+    box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #ae67fa;;
+  border-radius: 0.6em;
+  color: #ae67fa;;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.regis:hover, .regis:focus {
+    color: #fff;
+    outline: 0;
+  }
+  
+  .first {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #ae67fa inset;
+  }
+
+  .fourth {
+    border-color: #ae67fa;;
+    color: #ae67fa;;
+    background-image: linear-gradient(45deg, #ae67fa 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+  }
+  .fourth:hover {
+    background-position: 0;
+  }
+
+  .heading45{
+      position: relative;
+      text-align: center;
+      font-weight: bold;
+    
+  }
+
+  .rules45{
+      margin: 5% 5%;
+      color: #3f0f64;
+  }
+  
+

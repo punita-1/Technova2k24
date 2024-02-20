@@ -8,7 +8,7 @@
 }
 /* Colour */
 :root{
-    --color-lightskyblue:#81afdd;
+    --color-lightskyblue:white;
 }
 .display-flex{
     display: flex;

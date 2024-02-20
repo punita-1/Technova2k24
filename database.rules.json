@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+      "users":{
+        "rollno":{
+          ".write":"!data.exists()"
+        }
+      },
+      "teams":{
+        ".read":true,
+        ".write":true
+      }
+  }
+}

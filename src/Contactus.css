@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Freehand&display=swap');
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+/* html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+} */
+
+.bodycontact {
+    /* font-size: 10px; */
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.428571429;
+  font-weight: 400;
+  color: #fff;
+  color: #262626;
+
+  /* font-family: "PT Sans", sans-serif;
+font-size: 16px;
+line-height: 1.428571429;
+font-weight: 400;
+color: #5c5555; */
+}
+
+.rowcontact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+.sectioncontact {
+    width: 50%;
+  background-color: #3D4067;
+  background: linear-gradient(#0093F9, #199fff );
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.gitsxn {
+  /* background-color: #3e5974;
+   */
+background-image: url('../public/images/contact.jpg');
+  font-family: 'Hind', sans-serif;
+}
+.gitsxn_heading {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  font-weight: 1000;
+  /* background-color: red; */
+}
+.gitsxncardspos {
+  top: 65%;
+}
+.text-justify {
+  text-align: justify;
+}
