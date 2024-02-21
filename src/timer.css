@@ -1,19 +1,26 @@
 #back{
-    background-color: transparent;
+    /* background-color: transparent; */
+    /* background-color: #ae67fa; */
     padding: 3% 0;
   }
   .flipclock {
+    background-color: black;
     display: flex;
     justify-content: center;
     padding: 40px;
     box-sizing: border-box;
+    /* border-radius: 500px; */
   }
   
   .flipclock * {
+    background-color: white;
     box-sizing: inherit;
+    /* border-radius: 50px; */
   }
   
   .leaf {
+    /* border-radius: 50PX; */
+    background-color: black;
     display: flex;
     flex-direction: column;
     margin: 0 4px;
@@ -72,8 +79,8 @@
   
   .top,
   .leaf-front {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
     margin-bottom: 1px;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -90,8 +97,8 @@
   
   .bottom,
   .leaf-back {
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     border-top-style: solid;
     border-top-width: 1px;
   }

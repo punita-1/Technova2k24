@@ -1,0 +1,29 @@
+.carousel-wrapper {
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  
+  .carousel-wrapper .carousel .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .Crousel_img{
+    height: 250px !important;
+}
+
+/* Add hover effect to the carousel images */
+.carousel-wrapper {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carousel-wrapper:hover {
+  transform: scale(1.1); /* Increase size on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+}

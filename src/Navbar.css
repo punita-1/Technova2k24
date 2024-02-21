@@ -78,12 +78,13 @@ padding: 3px 0;
 
 .navnew a.active
 {
-color: #3498db;
+/* color: #3498db; */
+color: #ae67fa;
 text-decoration: none;
 font-weight: bold;
 }
 .navnew a:hover {
-	color: #3498db;
+	color: #ae67fa;
 	text-decoration: none;
 	font-weight: bold;
 }

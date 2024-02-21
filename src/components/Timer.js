@@ -13,7 +13,7 @@ const Timer = () => {
      
         var _this = this;
         var updateTimeout;
-       let eventDate = "12/15/2022";
+       let eventDate = "03/15/2024";
         const countDown = new Date(eventDate).getTime();
       //   birthday = dayMonth + yyyy;
         _this.el = el;
@@ -228,7 +228,7 @@ const Timer = () => {
     <>
     <section id="back">
     {/* <h2 style={{color:'#fff', textAlign: 'center'}}>BEGINS IN --</h2> */}
-    <div className="flipclock" id="flipclock-1" style={{color: '#000'}}></div>
+    <div class="flipclock" id="flipclock-1" style={{color: '#000'}}></div>
     </section>
     </>
   )

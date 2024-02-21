@@ -1,0 +1,163 @@
+
+* {
+    margin:0 0;
+    
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+a,
+a:hover,
+a.focus,
+a.active {
+    text-decoration: none;
+    outline: none;
+}
+
+.ulfooter {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li a{
+  text-decoration:none;
+}
+
+.footer {
+    background: black;
+     padding-top: 30px;
+     margin-top: 30px;
+}
+
+.footer_section h4,
+.social_media h4 {
+    color: #fff;
+    margin-top: 0;
+ 
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footer_section h4::after,
+.social_media h4::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+
+.footer_section .ulfooter {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.footer_section .ulfooter li a {
+    color: #fff;
+    transition: all .3s ease 0s;
+    line-height: 35px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.footer_section .ulfooter li a:hover {
+    color: #f1f1f1;
+}
+
+.footer_section_contact .ulfooter li {
+    color: #fff;
+}
+
+.search form {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-bottom: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.contact_input {
+    width: 100%;
+    border: none;
+    padding: 0 0 0 15px;
+    height: 60px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #999;
+    font-size: 16px;
+}
+
+
+.submit_button {
+    width: 70px;
+    height: 60px;
+    font-size: 20px;
+    border: none;
+    background: #fff;
+    text-align: center;
+    color: grey;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.social_media .ulfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media .ulfooter li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: black;
+    transition: all .5s ease;
+    margin: 0 10px;
+    padding: 10px;
+  }
+  
+  .social_media .ulfooter li a {
+    color: white;
+    /* background-color: black; */
+    width: 30px;
+    height: 30px;
+    /* align-items: center; */
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  .social_media .ulfooter li:hover {
+    background-color: white;
+    border: 1px solid grey;
+  }
+  
+  .social_media .ulfooter li:hover a {
+    color: #ae67fe;
+  }
+
+@media screen and(max-width:400px) {
+    .footer {
+        padding: 0 10px;
+    }
+}
+
+.margin_increase{
+    margin-top: 10px;
+}
+
+.bottom_end{
+    color: white;
+    text-align: center;
+    font-size: small;
+    align-items: center;
+    padding: 10px;
+}
