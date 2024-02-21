@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
-import { useStore } from '../store'
+// import { useStore } from '../store'
 import { Dropdown } from 'rsuite';
 import $ from 'jquery'; 
 import '../Navbar.css'
 import 'rsuite/dist/rsuite.min.css';
 const Navbar1 = () => {
-  const currentName = useStore((state) => state.currentName);
-  const { setCurrentName, setCurrentEmail } = useStore();
+  // const currentName = useStore((state) => state.currentName);
+  // const { setCurrentName, setCurrentEmail } = useStore();
   const location = useLocation();
   console.log(location.pathname)
   const refer = useRef(null);
@@ -43,7 +43,7 @@ const CustomDropdown = ({ ...props }) => (
   <Dropdown {...props} >
     <Link to='/profile'><Dropdown.Item >View Profile</Dropdown.Item></Link>
     
-    <Link to='/'><Dropdown.Item onClick={()=>{setCurrentName('');setCurrentEmail('') }}>Signout</Dropdown.Item></Link>    
+    <Link to='/'><Dropdown.Item onClick={()=>{console.log("fghhgf")}}>Signout</Dropdown.Item></Link>    
    
   </Dropdown>
 );
@@ -74,11 +74,11 @@ const CustomDropdown = ({ ...props }) => (
          
             {
 
-              (currentName === '') ?
+              ("" === '') ?
                 <li><Link to="/signup" ><button class="btn8  text-light">Sign Up</button></Link></li>
        
                 :
-                <CustomDropdown title={currentName} trigger={['click', 'hover']} />
+                <CustomDropdown title={"currentName"} trigger={['click', 'hover']} />
 
 
             }

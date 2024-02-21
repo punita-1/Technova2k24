@@ -9,7 +9,7 @@ import SignUp from './components/SignUp';
 import Aboutinside from './components/Aboutinside';
 import Gallery_page from './components/Gallery_page';
 // import About from './components/About';
-import AboutCard from './components/AboutCard'
+import AboutCard from './components/Aboutcard'
 // import Events from './components/Events';
 import Footer from './components/Footer';
 import EventDetail from './components/EventDetail';
@@ -32,7 +32,7 @@ const App = () => {
     <>
       <BrowserRouter>
 
-        <Routes>
+        <Switch>
           {/* <Route exact path='/AllEvent'> */}
           {/* <Navbar /> */}
           {/* <Allevents /> */}
@@ -87,7 +87,7 @@ const App = () => {
             <TeamReg />
             {/* <Test/> */}
             </Route>
-        </Routes>
+        </Switch>
       </BrowserRouter>
     </>
   )
