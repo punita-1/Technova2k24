@@ -16,25 +16,25 @@ const Navbar1 = () => {
   window.addEventListener('scroll', fixNav)
   function fixNav() {
     if (window.scrollY > 150) {
-      refer.current.classList.add('active1');
-      referburger.current.classList.remove('navbar-dark');
-      referburger.current.classList.add('navbar-light');
+      refer.current.classList?.add('active1');
+      referburger.current.classList?.remove('navbar-dark');
+      referburger.current.classList?.add('navbar-light');
     } else {
-      refer.current.classList.remove('active1');
-      referburger.current.classList.remove('navbar-light');
-      referburger.current.classList.add('navbar-dark');
+      refer.current.classList?.remove('active1');
+      referburger.current.classList?.remove('navbar-light');
+      referburger.current.classList?.add('navbar-dark');
     }
 }
 
 useEffect(()=>{
      if(location.pathname =='/' || location.pathname == '/contact'){
-      refer.current.classList.remove('navbg');
-       refer.current.classList.add('navbg1');
+      refer.current.classList?.remove('navbg');
+       refer.current.classList?.add('navbg1');
        
      }
      else{
-      refer.current.classList.remove('navbg1');
-      refer.current.classList.add('navbg');
+      refer.current.classList?.remove('navbg1');
+      refer.current.classList?.add('navbg');
      }
      
     
